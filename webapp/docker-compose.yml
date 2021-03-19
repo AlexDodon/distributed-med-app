@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  react:
+    image: medwebapp
+    ports:
+       - "80:80"
+

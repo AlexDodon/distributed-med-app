@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+
+  tomcat-db-api:
+    image: medapp
+    ports:
+       - "8080:8080"
